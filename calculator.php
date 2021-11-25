@@ -1,36 +1,33 @@
 <?php
 
-//function to computes the sum of two numbers
+// Addition function
 function addNumbers($num1, $num2){
-    echo $num1 + $num2;
+    return $num1 + $num2;
 }
 addNumbers(2,4);
 
-//function to computes the diference of two numbers
+// Subtraction function
 function diffOfNumbers($num1, $num2){
-    echo $num1 - $num2;
+    return $num1 - $num2;
 }
 diffOfNumbers(4, 6);
 
-//function to computes the multiplication of two numbers
+// Multiplication function
 function multiplyNumbers($num1, $num2){
-    echo $num1 * $num2;
+    return $num1 * $num2;
 }
 multiplyNumbers(5, 5);
 
-//function to computes the floor division of two numbers
+// Floor Division function
 function floorOfNumbers($num1, $num2){
-    echo $num1 / $num2;
+    return $num1 / $num2;
 }
 floorOfNumbers(4,2);
 
-//function to computes the modulus of two numbers
+// Modulus function
 function modulusNumbers($num1, $num2){
-    echo $num1 % $num2;
+    return $num1 % $num2;
 }
 modulusNumbers(4,3);
-
-
-
 
 ?>
