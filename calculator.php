@@ -2,32 +2,37 @@
 
 // Addition function
 function addNumbers($num1, $num2){
-    return $num1 + $num2;
+    $sum = $num1 + $num2;
+    return $sum;
 }
-addNumbers(2,4);
+echo addNumbers(2,4);
 
 // Subtraction function
 function diffOfNumbers($num1, $num2){
-    return $num1 - $num2;
+    $diff = $num1 - $num2;
+    return $diff;
 }
-diffOfNumbers(4, 6);
+echo diffOfNumbers(4, 6);
 
 // Multiplication function
 function multiplyNumbers($num1, $num2){
-    return $num1 * $num2;
+    $multi = $num1 * $num2;
+    return $multi;
 }
-multiplyNumbers(5, 5);
+echo multiplyNumbers(5, 5);
 
 // Floor Division function
 function floorOfNumbers($num1, $num2){
-    return $num1 / $num2;
+    $floor = $num1 / $num2;
+    return $floor;
 }
-floorOfNumbers(4,2);
+echo floorOfNumbers(4,2);
 
 // Modulus function
 function modulusNumbers($num1, $num2){
-    return $num1 % $num2;
+    $modul = $num1 % $num2;
+    return $modul;
 }
-modulusNumbers(4,3);
+echo modulusNumbers(4,3);
 
 ?>
